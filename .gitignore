@@ -1,0 +1,9 @@
+terraform.tfplan
+terraform.tfstate
+.*.swp
+./*.tfstate
+.terraform/
+*.backup
+*.log
+*.lock.hcl
+.vscode/

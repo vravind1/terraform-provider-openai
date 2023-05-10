@@ -21,6 +21,6 @@ data "openai_completion" "example" {
 }
 
 output "example_response" {
-  value = data.openai_completion.example.example_result
+  value = data.openai_completion.example.result
 }
 ```

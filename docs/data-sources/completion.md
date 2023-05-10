@@ -19,15 +19,15 @@ data "openai_completion" "example" {
 }
 
 output "example_response" {
-  value = data.openai_completion.example.example_result
+  value = data.openai_completion.example.result
 }
 
 output "example_tokens" {
-  value = data.openai_completion.example.example_total_tokens
+  value = data.openai_completion.example.total_tokens
 }
 
 output "example_reason" {
-  value = data.openai_completion.example.example_finish_reason
+  value = data.openai_completion.example.finish_reason
 }
 ```
 

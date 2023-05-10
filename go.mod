@@ -1,4 +1,5 @@
-module terraform-provider-openai
+//module terraform-provider-openai
+module github.com/vravind1/terraform-provider-openai
 
 go 1.18
 

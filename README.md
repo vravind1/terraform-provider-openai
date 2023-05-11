@@ -1,5 +1,5 @@
 # Terraform Provider: OpenAI
-Terraform provider for OpenAI APIs
+[The Terraform Provider for OpenAI](https://registry.terraform.io/providers/vravind1/openai/latest) is a plugin built using the [Terraform Plugin Framework](https://developer.hashicorp.com/terraform/plugin/framework). 
 
 ## Requirements
 - [Terraform](https://www.terraform.io/) 1.0+
@@ -39,3 +39,8 @@ output "example_reason" {
   value = data.openai_completion.example.finish_reason
 }
 ```
+More details on how to use this provider can be found on the [Terraform Registry](https://registry.terraform.io/providers/vravind1/openai/latest). 
+
+## License
+
+[MIT License](https://github.com/vravind1/terraform-provider-openai/blob/main/LICENSE)

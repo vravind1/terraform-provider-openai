@@ -16,7 +16,7 @@ terraform {
 required_providers {
     openai = {
       source  = "registry.terraform.io/vravind1/openai"    
-      version = "0.0.1".  // use the appropriate version
+      version = "0.1.0".  // use the appropriate version
     }
   }
 }
